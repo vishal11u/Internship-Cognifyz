@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navabar Styling ----------------------- */
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(229, 229, 229);
+    height: 4rem;
+    width: 100%;
+}
+.Navbar nav{
+    display: flex;
+}
+.Navbar nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    transition: all;
+}
+.Navbar nav a:hover{
+    color: white;
+    background-color: rgb(60, 160, 60);
+}
+.Navbar button{
+    padding: 8px 17px;
+    border-radius: 10px;
+    background-color: rgb(98, 65, 216);
+    border: none;
+    transition: all;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+.Navbar button:hover{
+    background-color: black;
+}
+
+/* Form styling -------------------------- */
+.Form{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    width: 100%;
+}
+.Form input{
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 0 5px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    outline: none;
+}
+.Form button{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(89, 219, 91);
+    font-size: 15px;
+    transition: all;
+}
+.Form button:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+/* Content styling ----------------------------- */
+.Content{
+    display: fex;
+    text-align: center;
+    padding: 0 5rem;
+    align-items: center;
+    width: 100%;
+}
+.content-text{
+    padding: 0 4rem;
+}
+.content-img img{
+    height: 43.6vh;
+}
+.content-text p{
+    margin-top: 0.5rem;
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+}

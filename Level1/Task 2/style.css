@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Colo change styling ----------------------------------- */
+.color-btn{
+    padding: 4rem;
+    text-align: center;
+}
+.color-btn button{
+    padding: 12px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.color-btn span{
+    color: red;
+}
+
+/* Calculator styling ----------------------------------- */
+.calculator-main{
+   display: flex;
+   justify-content: center;
+}
+.calculator{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(70, 199, 70);
+    width: 35%;
+    padding: 2rem;
+    box-shadow: 10px 10px 15px black;
+}
+.calculator-input input{
+    margin: 0 15px;
+    padding: 8px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.submit-btn button{
+   padding: 5px 15px;
+   margin-top: 1.5rem;
+   font-size: 20px;
+   border: none;
+   background-color: rgb(255, 0, 0);
+   color: white;
+   transition: all;
+   border-radius: 3px;
+   cursor: pointer;
+}
+.submit-btn button:hover{
+    box-shadow: 5px 5px 5px  black;
+}
+.total-count p{
+    padding: 5px;
+    margin-top: 1rem;
+    font-size: 20px;
+    background-color: gray;
+}
